@@ -1,4 +1,4 @@
-# OpenGL-MapAndRover
+# OpenGL - Map With Rover
 - Verilen y noktalarına göre oluşturulan harita üzerinde giden bir robotun bulunduğu C++ OpenGL projesi.
 - **OpenGL GLUT (glut.h, glut32.lib ve glut32.dll) gerektirir.** ([Visual Studio için kurulumu](https://stackoverflow.com/a/20559229))  
 
