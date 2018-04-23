@@ -1,5 +1,6 @@
 # OpenGL-MapAndRover
-Verilen y noktalarına göre oluşturulan harita üzerinde giden bir robotun bulunduğu C++ OpenGL projesi.
+- Verilen y noktalarına göre oluşturulan harita üzerinde giden bir robotun bulunduğu C++ OpenGL projesi.
+- OpenGL GLUT (glut.h, glut32.lib ve glut32.dll) gerektirir.
 
 - Robotun omuz, dirsek, bilek ve parmak olmak üzere 4 hareketli parçası vardır.
 - "W/A/S/D" tuşları robotu hareket ettirir.
