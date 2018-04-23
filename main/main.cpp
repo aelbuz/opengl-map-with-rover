@@ -428,8 +428,8 @@ void special(int key1, int x, int y)
 		angleCamera = angleCamera + 0.05;
 		if (angleCamera > 360.0)
 			angleCamera = 0.0;
-		cameraX = cameraDistance * cos(angleCamera / 180.0*3.14);
-		cameraZ = cameraDistance * sin(angleCamera / 180.0*3.14);
+		cameraX = cameraDistance * cos(angleCamera / 180.0 * 3.14);
+		cameraZ = cameraDistance * sin(angleCamera / 180.0 * 3.14);
 		gluLookAt(cameraX + 5, 0.0, cameraZ + 5, 0, 0, -150, 0, 1, 0);
 		break;
 
@@ -437,8 +437,8 @@ void special(int key1, int x, int y)
 		angleCamera = angleCamera - 0.05;
 		if (angleCamera < 360.0)
 			angleCamera = 0.0;
-		cameraX = cameraDistance * cos(angleCamera / 180.0*3.14);
-		cameraZ = cameraDistance * sin(angleCamera / 180.0*3.14);
+		cameraX = cameraDistance * cos(angleCamera / 180.0 * 3.14);
+		cameraZ = cameraDistance * sin(angleCamera / 180.0 * 3.14);
 		gluLookAt(-cameraX - 5, 0.0, -cameraZ - 5, 0, 0, -150, 0, 1, 0);
 		break;
 
@@ -446,7 +446,7 @@ void special(int key1, int x, int y)
 		angleCamera += 0.5;
 		if (angleCamera > 360.0)
 			angleCamera = 0.0;
-		cameraZ = cameraDistance * sin(angleCamera / 180.0*3.14);
+		cameraZ = cameraDistance * sin(angleCamera / 180.0 * 3.14);
 		gluLookAt(0.0, 0.0, -cameraZ - 5, 0, 0, -150, 0, 1, 0);
 		break;
 
@@ -454,7 +454,7 @@ void special(int key1, int x, int y)
 		angleCamera -= 0.5;
 		if (angleCamera < 360.0)
 			angleCamera = 0.0;
-		cameraZ = cameraDistance * sin(angleCamera / 180.0*3.14);
+		cameraZ = cameraDistance * sin(angleCamera / 180.0 * 3.14);
 		gluLookAt(0.0, 0.0, cameraZ + 5, 0, 0, -150, 0, 1, 0);
 		break;
 	}
